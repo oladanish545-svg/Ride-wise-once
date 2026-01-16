@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RideWise – Compare Rides</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <div class="logo-glass">
+    <h1>RideWise</h1>
+    <p>Compare rides like never before</p>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app" class="hidden">
+
+<header>RideWise</header>
+
+<!-- MAP -->
+<section id="mapSection">
+  <div id="map">
+    <div class="bike"></div>
+  </div>
+
+  <div class="location-panel">
+    <input placeholder="Pickup location">
+    <input placeholder="Drop location">
+    <button id="compareBtn">Compare Ride</button>
+  </div>
+</section>
+
+<!-- LOADING -->
+<div id="loading" class="hidden">
+  <p>Comparing fares across apps...</p>
+</div>
+
+<!-- RESULTS -->
+<section id="results" class="hidden">
+  <div class="phones">
+
+    <div class="phone ola">
+      <div class="screen">
+        <div class="app-header">Ola</div>
+        <div class="content">
+          <strong>₹210</strong>
+          <span>8 min</span>
+          <small>Rahul ⭐4.7</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone uber">
+      <div class="screen">
+        <div class="app-header">Uber</div>
+        <div class="content">
+          <strong>₹225</strong>
+          <span>6 min</span>
+          <small>Aman ⭐4.8</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone rapido">
+      <div class="screen">
+        <div class="app-header">Rapido</div>
+        <div class="content">
+          <strong>₹180</strong>
+          <span>10 min</span>
+          <small>Mohit ⭐4.6</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="phone indrive">
+      <div class="screen">
+        <div class="app-header">inDrive</div>
+        <div class="content">
+          <strong>₹195</strong>
+          <span>7 min</span>
+          <small>Sameer ⭐4.5</small>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
